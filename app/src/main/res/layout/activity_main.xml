@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/spinner_background" />
 
     <!-- ListView para mostrar las razas -->
     <ListView
@@ -21,5 +22,6 @@
         android:layout_height="match_parent"
         android:layout_below="@id/spinnerCategorias"
         android:divider="#ccc"
-        android:dividerHeight="1dp" />
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
 </RelativeLayout>
